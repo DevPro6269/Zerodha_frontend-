@@ -1,11 +1,11 @@
 import React from 'react';
-import "../index.css";
+
 
 
 function Navbar() {
   return (
     <header>
-      <nav  className="bg-white border-2 flex justify-around items-center py-[20px]  fixed top-0 w-full">
+      <nav  className="bg-white z-10 border-2 flex justify-around items-center py-[20px]  fixed top-0 w-full">
         <div className="logo">
           <img src="/images/logo.svg" className="w-[140px]" alt="Company Logo" />
         </div>
