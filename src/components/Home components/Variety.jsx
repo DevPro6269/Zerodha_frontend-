@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Variety = () => {
   return (
@@ -12,11 +13,11 @@ const Variety = () => {
             <div className='md:w-1/2 lg:w-2/5 flex flex-col gap-6 mt-6'>
                   <h1 className='text-2xl font-medium '>Free and open market education</h1>
                   <p className='text-base text-[#666]'>Varsity, the largest online stock market education book in the world covering everything from the basics to advanced trading.</p>
-                  <a href="" className='font-semibold text-blue-600 hover:scale-105'>Varsity &nbsp;  <i class="fa-solid fa-arrow-right"></i> </a>
+                  <Link to="/sas" className='font-semibold text-blue-600 hover:scale-105'>Varsity &nbsp;  <i class="fa-solid fa-arrow-right"></i> </Link>
 
 
                   <p className='text-base text-[#666] '>TradingQ&A, the most active trading and investment community in India for all your market related queries.</p>
-                  <a href="" className='font-semibold text-blue-600 hover:scale-105'>TradingQ&A &nbsp; <i class="fa-solid fa-arrow-right"></i> </a>
+                  <Link to="/asa" className='font-semibold text-blue-600 hover:scale-105'>TradingQ&A &nbsp; <i class="fa-solid fa-arrow-right"></i> </Link>
             </div>
 
         </section>

@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Varsity = () => {
   return (
@@ -24,7 +25,7 @@ const Varsity = () => {
                 F&O</p>
                </div>
             </div>
-            <a href="" className='lg:ml-6'>see pricing</a>
+            <Link to="/qqq" className='lg:ml-6'>see pricing</Link>
         </section>
     </div>
   )

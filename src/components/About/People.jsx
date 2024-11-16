@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const People = () => {
   return (
@@ -32,17 +33,17 @@ const People = () => {
             <p>Playing basketball is his zen.</p>
             <p>
               Connect on{" "}
-              <a href="" className="text-blue-600">
+              <Link to="" className="text-blue-600">
                 Homepage
-              </a>{" "}
+              </Link>{"/zcc "}
               /{" "}
-              <a href="" className="text-blue-600">
-                TradingQnA
-              </a>{" "}
+              <Link to="/zzz" className="text-blue-600">
+                Homepage
+              </Link>{" "}
               /{" "}
-              <a href="" className="text-blue-600">
-                Twitter
-              </a>
+              <Link to="/zzz" className="text-blue-600">
+                Homepage
+              </Link>{" "}
             </p>
           </div>
         </div>

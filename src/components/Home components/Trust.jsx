@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const Trust = () => {
@@ -29,8 +30,8 @@ const Trust = () => {
             <div className='md:w-[65%] w-full p-2 flex flex-col md:justify-center items-center'>
             <img src="/images/ecosystem.png" className='max-w-[90%] lg:max-w-[70%]' alt="" />
             <div className='flex justify-around w-3/4 '>
-              <a href="" className='hover:text-blue-600'>Explore our products &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
-              <a href="" className='hover:text-blue-600'>Try Kite demo &nbsp; <i class="fa-solid fa-arrow-right"></i> </a>
+              <Link to="/sdf" className='hover:text-blue-600'>Explore our products &nbsp; <i class="fa-solid fa-arrow-right"></i></Link>
+              <Link to="/ccc" className='hover:text-blue-600'>Try Kite demo &nbsp; <i class="fa-solid fa-arrow-right"></i> </Link>
             </div>
             </div>
             

@@ -1,18 +1,22 @@
-
 import About from './components/About/About';
 import Footer from './components/Footer';
 import Home from './components/Home components/Home';
-import Navbar from './components/Home components/Navbar';
+import Navbar from './Navbar';
 import './index.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-    <Navbar/>
-    <Home/>
-    {/* <About/> */}
-    <Footer/>
-    </>
+    <Router>
+      <>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+        <Footer />
+      </>
+    </Router>
   );
 }
 
