@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
     <br /> <br />
-    <footer className='w-full bg-gray-100 '>
+    <footer className='w-full bg-gray-500 '>
         <section className='container flex mx-auto justify-center gap-5' >
           <div className='w-1/4 flex-col flex gap-4 p-7 '>
            <img src="/images/logo.svg" alt="" className=' w-44' />

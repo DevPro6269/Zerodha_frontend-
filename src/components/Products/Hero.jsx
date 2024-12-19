@@ -8,7 +8,7 @@ const Hero = () => {
         <h1 className='text-5xl p-2'>Zerodha Products</h1>
         <h3 className='text-2xl p-2'>Sleek, modern, and intuitive trading platforms</h3>
         <p className='text-xl p-2'>Check out our <span className='text-blue-600'>investment offerings →</span></p>
-        
+         <p>just for practice </p>
     </section>
     <br /> <br /> <br /> <br />
     </>
