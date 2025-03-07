@@ -15,7 +15,7 @@ function Navbar() {
           <li className="hidden md:inline"><NavLink to="/about"className={({ isActive }) => (isActive ? "text-orange-400" : "")}>About</NavLink></li>
           <li className="hidden md:inline"><NavLink to="/product"className={({ isActive }) => (isActive ? "text-orange-400" : "")}>Products</NavLink></li>
           <li className="hidden md:inline"><NavLink to="/support"className={({ isActive }) => (isActive ? "text-orange-400" : "")}>Support</NavLink></li>
-          <li className="hidden md:inline">Pricing</li>
+          <li className="hidden md:inline"><NavLink to="/pricing"className={({ isActive }) => (isActive ? "text-orange-400" : "")}>Pricing</NavLink></li>
           <li className="md:hidden">
             <i className="fa-solid fa-bars fa-lg"></i>
           </li>

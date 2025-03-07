@@ -7,6 +7,7 @@ import './index.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Product } from './components/Products/Product';
 import Support from './components/Support/Support';
+import PricingPage from './components/pricing/PricingPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/product" element={<Product />} />
           <Route path="/support" element={<Support />} />
+          <Route path="/pricing" element={<PricingPage/>} />
         </Routes>
         <Footer />
       </>
